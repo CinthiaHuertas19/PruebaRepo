@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column; /* Los elementos hijos se apilan verticalmente */
+    height: 100vh; /* Ajusta la altura del contenedor principal al 100% del viewport */
+    margin: 0; /* Elimina márgenes predeterminados del body */
+}
+
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    padding: 0; 
+}
+
+main {
+    flex: 2; /* Hace que el contenido principal ocupe todo el espacio disponible */
+    padding: 0; /* Espaciado interno del contenido principal */
+}
+a img {
+    width: 95px;
+    height: 55px:
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+    border: 2px solid blue;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div h2 {
+    color: aliceblue;
+    display: inline;
+    font-size: 20px;
+    text-align: right;
+}
+
+span {
+    font-size: 35px;
+    display: block;
+    font-weight: bold;
+    
+}
+
+section h3 {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+ 
+.principal {
+    margin: 10px;
+    border: 3px solid red;
+}
+
+button .btn btn-lg btn-form {
+    border: 2px green;
+}
